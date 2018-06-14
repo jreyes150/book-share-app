@@ -75,7 +75,7 @@ text-decoration: none;
   padding-left: 610px;
 }
 .flex-item {
-  background:#a1c1f4 ;
+  background:#FFFFFF ;
   padding: 5px;
   width: 200px;
   height: 150px;
@@ -86,6 +86,7 @@ text-decoration: none;
   font-weight: bold;
   text-align: center;
   margin-top:20px;
+  border-style: solid;
 }
 label{color: black;
   font-family: "Times New Roman", Times, serif;
