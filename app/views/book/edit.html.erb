@@ -1,0 +1,12 @@
+<h1>edit</h1>
+ <form action="/book/update/<%= @book.id %>">
+    <input name="name" type="text" value="<%= @book.name %>">
+    <input name="email" type="text" value="<%= @book.email %>">
+    <input name="book_title" type="text" value="<%= @book.book_title%>">
+        <input name="days_needed" type="number" value="<%= @book.days_needed%>">
+    <input name="intrested_response" type="text" value="<%= @book.intrested_response%>">
+    <input type="submit" value="EDIT">
+
+  </form>
+  <br>
+    <a href="/" class="simple-link">BACK TO Book Request</a>

@@ -1,0 +1,31 @@
+
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+ </head>
+   <header class="nav">
+  <img src="https://vectr.com/jreyes16/a1elNX2a1K.svg?width=478.1617230769233&height=296.56159079016226&select=a68TuDADv4,a1EJP0JMHe,a21Ferkkz&source=selection"class="logo">
+</nav>
+ <h1>Book Request</h1>
+<div class="read"><p>Do you ever wish you could have a lifetime of books without needing to spend the money. Now you can request as many books for school or just for fun. Also you will receive reponds directly on the site.</p></div>
+ <% @books.each do |book| %>
+    <div>
+   <h3>name</h3>
+<a href="/book/show/<%= book.id %>"><%= book.name %></a>
+     <h3>email</h3>
+     <p><%= book.email%></p>
+     <h3>book_title</h3>
+        <p><%= book.book_title%></p>
+    </div>
+  
+    <hr>
+  <% end %>
+ 
+  <div>
+  <a href="/book/new">ADD Book Request</a>
+  </div>
+ <ul class="flex-container"></il>
+   <li class="flex-item"><a href="https://www.scls.info/directory">libraries Nearby</a></li>
+  <li class="flex-item"><a href="https://www.rd.com/culture/50-books-to-read-before-youre-50/">Books To Read</a></li>
+  <li class="flex-item"><a href="https://getunbound.org/blog/12-reasons-you-should-read-at-least-12-books-this-year">Why Read?</a></li>
+      </ul>

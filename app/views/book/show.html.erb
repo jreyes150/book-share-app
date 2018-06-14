@@ -1,0 +1,17 @@
+<h1>Request A Book</h1>
+<lable>Request ID</lable>
+<h3><%= params[:id] %></h3>
+<label>Name</label>
+<h2><%= @book.name %></h2>
+<label>Email</label>
+<h2><%= @book.email %></h2>
+<lable>Book Title</lable>
+<h2><%= @book.book_title %></h2>
+<lable>Days Needed </lable>
+<h2><%= @book.days_needed %></h2>
+<label>Response</label>
+<h2><%= @book.intrested_response %></h2>
+
+<a href="/book/edit/<%= @book.id %>" >Edit</a>
+<a href="/book/destroy/<%= @book.id %>" >Delete</a>
+<a href="/" >BACK TO BOOK REQUESTS</a>
