@@ -41,6 +41,7 @@ h2{color:#172d51;
     font-family: 'Open Sans', sans-serif;
       text-align: center;
           font-weight: normal;
+        
 
 }
 h3{color:#172d51;
@@ -48,11 +49,11 @@ h3{color:#172d51;
     font-family: 'Open Sans', sans-serif;
       text-align: center;
       font-weight: normal;
-
 }
 p{
   font-family: 'Open Sans', sans-serif;
 text-decoration: none;
+text-align: center;
 }
 
 
@@ -62,9 +63,7 @@ text-decoration: none;
 
 }
 
-.read{ width:380px;
- text-align: left;
- padding-left: 550px;
+.read{ text-align:center; 
     
 }
 .dog{  text-align: center;}
@@ -72,7 +71,8 @@ text-decoration: none;
 .flex-container {
   display: flex;
   flex-direction: column;
-  padding-left: 610px;
+  padding-left: 10px;
+    align-items: center;
 }
 .flex-item {
   background:#FFFFFF ;
@@ -90,4 +90,7 @@ text-decoration: none;
 }
 label{color: black;
   font-family: "Times New Roman", Times, serif;
+}
+.boxx {
+  margin-bottom: 20px;
 }

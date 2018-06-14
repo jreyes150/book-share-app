@@ -1,4 +1,8 @@
-<h1>Request A Book</h1>
+ <head><meta name="viewport" content="width=device-width, initial-scale=1.0"></head>
+ <header class="nav">
+  <img src="https://vectr.com/jreyes16/a1elNX2a1K.svg?width=478.1617230769233&height=296.56159079016226&select=a68TuDADv4,a1EJP0JMHe,a21Ferkkz&source=selection"class="logo">
+</nav>
+<h1>Book Requests</h1>
 <lable>Request ID</lable>
 <h3><%= params[:id] %></h3>
 <label>Name</label>
@@ -11,6 +15,7 @@
 <h2><%= @book.days_needed %></h2>
 <label>Response</label>
 <h2><%= @book.intrested_response %></h2>
+ <hr>
 
 <a href="/book/edit/<%= @book.id %>" >Edit</a>
 <a href="/book/destroy/<%= @book.id %>" >Delete</a>
